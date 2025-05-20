@@ -1,0 +1,12 @@
+create database pessoa;
+use pessoa;
+
+create table cadastro(
+idCadastro int auto_increment not null,
+nome varchar(100),
+sobrenome varchar(100),
+idade varchar(3),
+sexo char(3)
+);
+
+select * from cadastro;
